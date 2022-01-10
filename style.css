@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  background: aqua;
+}
+
+.boxes {
+  background: green;
+  width: 100%;
+  height: 25rem;
+  display: flex;
+}
+
+.box1 {
+  background: blue;
+  flex: 1;
+}
+
+.box2 {
+  background: yellow;
+  flex: 1;
+}
+
+.box3 {
+  background: violet;
+  flex: 1;
+}
